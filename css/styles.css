@@ -1,0 +1,86 @@
+:root {
+  --text-color: #000000;
+  --revers-text-color: #ffffff;
+  --sidebar-bcg-color: #1ea6b4;
+  --bcg-header-color: #f0f0f0;
+  --font-head: font-weight: 400;
+  --font-secondary-head:font-weight: 700;
+  --font-sidebar-text: font-weight: 500;
+  --font-sidebar-link: font-weight: 600;
+}
+body {
+  font-family: Montserrat, sans-serif;
+  color: var(--text-color);
+  font-weight: var(--font-head);
+  background-color: var(--revers-text-color);
+}
+/* Hero */
+.hero {
+  background-color: var(--bcg-header-color);
+}
+.hero-title {
+  font-family: 'Bebas Neue';
+  font-size: 150px;
+  line-height: 0.87;
+}
+.hero-text {
+  font-weight: var(--font-sidebar-text);
+  font-size: 64px;
+  line-height: 0.9;
+}
+/* Main */
+.main-title {
+  color: var(--sidebar-bcg-color);
+  font-family: 'Bebas Neue';
+  font-size: 110px;
+  line-height: 1.2;
+}
+.project {
+  color: var(--sidebar-bcg-color);
+  font-weight: var(--font-secondary-head);
+  font-size: 48px;
+  line-height: 1.2;
+}
+.project-text {
+  font-size: 33px;
+  line-height: 1.2;
+}
+.link {
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 38px;
+  line-height: 1.2;
+}
+.edu-title {
+  color: var(--sidebar-bcg-color);
+  font-weight: var(--font-secondary-head);
+  font-size: 33px;
+  line-height: 1.2;
+}
+.edu-text {
+  font-size: 33px;
+  line-height: 1.2x;
+}
+.time {
+font-weight: var(--font-secondary-head);
+font-size: 31px;
+line-height: 1.2;
+}
+.list li { 
+  list-style: none;
+  padding: 0;
+
+}
+.list>li::before {
+  content: '';
+  box-sizing: border-box;
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  background: #FFFFFF;
+  border: 6px solid #1EA6B4;
+  border-radius: 50px;
+  display: inline-block;
+  left: 0;
+
+}
